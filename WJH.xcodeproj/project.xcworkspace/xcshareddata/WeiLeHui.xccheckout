@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ABC0EB86-F3FA-4258-B6BC-79424ACBA4D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WeiLeHui</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF6A17B1-0766-46B2-AA93-3940131F4909</key>
+		<string>https://allmyprojectsvn.googlecode.com/svn/trunk/WJH</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WeiLeHui.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF6A17B1-0766-46B2-AA93-3940131F4909</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>CF6A17B1-0766-46B2-AA93-3940131F4909</key>
+		<string>https://allmyprojectsvn.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://allmyprojectsvn.googlecode.com/svn/trunk/WJH/WeiLeHui.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF6A17B1-0766-46B2-AA93-3940131F4909</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF6A17B1-0766-46B2-AA93-3940131F4909</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WJH</string>
+		</dict>
+	</array>
+</dict>
+</plist>
