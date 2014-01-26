@@ -50,6 +50,7 @@
 		CD0C3A9D188BC1AA0053AE25 /* icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0C3A9A188BC1AA0053AE25 /* icon-80.png */; };
 		CD0C3A9E188BC1AA0053AE25 /* icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0C3A9B188BC1AA0053AE25 /* icon-58.png */; };
 		CD0C3A9F188BC1AA0053AE25 /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0C3A9C188BC1AA0053AE25 /* icon-29.png */; };
+		CD0E79A11895624E00AF0F25 /* LoginTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0E79A31895624E00AF0F25 /* LoginTableViewController.storyboard */; };
 		CD4F90A51674D2AA00E8D947 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4F90A41674D2AA00E8D947 /* DAKeyboardControl.m */; };
 		CD84A057188445DE00C4EA91 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD849EB1188445DD00C4EA91 /* RootViewController.m */; };
 		CD84A0DE188445DE00C4EA91 /* SGHTTPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD849F92188445DE00C4EA91 /* SGHTTPHelper.m */; };
@@ -57,8 +58,6 @@
 		CD84A0E2188445DE00C4EA91 /* SGURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD849F9A188445DE00C4EA91 /* SGURLHelper.m */; };
 		CD84A0FC188445DF00C4EA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD849FD0188445DE00C4EA91 /* AppDelegate.m */; };
 		CD84A0FD188445DF00C4EA91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD849FD1188445DE00C4EA91 /* InfoPlist.strings */; };
-		CD84A0FE188445DF00C4EA91 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD849FD3188445DE00C4EA91 /* ViewController_iPad.xib */; };
-		CD84A0FF188445DF00C4EA91 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD849FD5188445DE00C4EA91 /* ViewController_iPhone.xib */; };
 		CD84A106188445DF00C4EA91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD849FE1188445DE00C4EA91 /* Localizable.strings */; };
 		CD84A107188445DF00C4EA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD849FE2188445DE00C4EA91 /* main.m */; };
 		CD84A10B188445DF00C4EA91 /* WJH-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD849FE7188445DE00C4EA91 /* WJH-Info.plist */; };
@@ -95,7 +94,6 @@
 		CD8637F415F4F7CD00558623 /* URLConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = CD8637F315F4F7CD00558623 /* URLConfig.json */; };
 		CD8B7545188BCF82009E7020 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7544188BCF82009E7020 /* RootTableViewController.m */; };
 		CD8B7549188BCFD7009E7020 /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7547188BCFD7009E7020 /* LoginTableViewController.m */; };
-		CD8B754A188BCFD7009E7020 /* LoginTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B7548188BCFD7009E7020 /* LoginTableViewController.storyboard */; };
 		CD8B7563188BD078009E7020 /* CustomInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B754E188BD078009E7020 /* CustomInputTableViewCell.m */; };
 		CD8B7564188BD078009E7020 /* DateInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7550188BD078009E7020 /* DateInputTableViewCell.m */; };
 		CD8B7565188BD078009E7020 /* IntegerInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7552188BD078009E7020 /* IntegerInputTableViewCell.m */; };
@@ -113,6 +111,8 @@
 		CD8B7577188BF0AA009E7020 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B7573188BF0AA009E7020 /* login.png */; };
 		CD8B7578188BF0AA009E7020 /* register@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B7574188BF0AA009E7020 /* register@2x.png */; };
 		CD8B7579188BF0AA009E7020 /* login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B7575188BF0AA009E7020 /* login@2x.png */; };
+		CD8C6F6A189544E0000EAE12 /* RegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8C6F67189544E0000EAE12 /* RegisterTableViewController.m */; };
+		CD8C6F6B189544E0000EAE12 /* RegisterTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8C6F68189544E0000EAE12 /* RegisterTableViewController.storyboard */; };
 		CD8CD01016AED2A400F831BD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6415281678B2540001C6BB /* AssetsLibrary.framework */; };
 		CD9FD2EE15F7AA5200AE22FB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B1A6A15EDFBBC00B67BDF /* Security.framework */; };
 		CD9FD2F015F7AA5900AE22FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9FD2EF15F7AA5900AE22FB /* QuartzCore.framework */; };
@@ -191,6 +191,8 @@
 		CD0C3A9A188BC1AA0053AE25 /* icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-80.png"; sourceTree = "<group>"; };
 		CD0C3A9B188BC1AA0053AE25 /* icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-58.png"; sourceTree = "<group>"; };
 		CD0C3A9C188BC1AA0053AE25 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29.png"; sourceTree = "<group>"; };
+		CD0E79A4189562AF00AF0F25 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/LoginTableViewController.storyboard"; sourceTree = "<group>"; };
+		CD0E79A5189562AF00AF0F25 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		CD4F90A31674D2AA00E8D947 /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
 		CD4F90A41674D2AA00E8D947 /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
 		CD6415281678B2540001C6BB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -204,9 +206,6 @@
 		CD849F9A188445DE00C4EA91 /* SGURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGURLHelper.m; sourceTree = "<group>"; };
 		CD849FCF188445DE00C4EA91 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD849FD0188445DE00C4EA91 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD849FD2188445DE00C4EA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CD849FD4188445DE00C4EA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		CD849FD6188445DE00C4EA91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		CD849FE1188445DE00C4EA91 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		CD849FE2188445DE00C4EA91 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD849FE7188445DE00C4EA91 /* WJH-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WJH-Info.plist"; sourceTree = "<group>"; };
@@ -266,7 +265,6 @@
 		CD8B7544188BCF82009E7020 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		CD8B7546188BCFD7009E7020 /* LoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
 		CD8B7547188BCFD7009E7020 /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
-		CD8B7548188BCFD7009E7020 /* LoginTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginTableViewController.storyboard; sourceTree = "<group>"; };
 		CD8B754C188BD078009E7020 /* InputTableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputTableViewCellDelegate.h; path = ../../../../52malls/52Malls/Views/TableViewCells/InputTableViewCellDelegate.h; sourceTree = "<group>"; };
 		CD8B754D188BD078009E7020 /* CustomInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomInputTableViewCell.h; path = ../../../../52malls/52Malls/Views/TableViewCells/CustomInputTableViewCell.h; sourceTree = "<group>"; };
 		CD8B754E188BD078009E7020 /* CustomInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomInputTableViewCell.m; path = ../../../../52malls/52Malls/Views/TableViewCells/CustomInputTableViewCell.m; sourceTree = "<group>"; };
@@ -297,6 +295,9 @@
 		CD8B7574188BF0AA009E7020 /* register@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register@2x.png"; sourceTree = "<group>"; };
 		CD8B7575188BF0AA009E7020 /* login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login@2x.png"; sourceTree = "<group>"; };
 		CD8C6F66188C2BEE000EAE12 /* WJH-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WJH-Prefix.pch"; sourceTree = "<group>"; };
+		CD8C6F67189544E0000EAE12 /* RegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTableViewController.m; sourceTree = "<group>"; };
+		CD8C6F68189544E0000EAE12 /* RegisterTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterTableViewController.storyboard; sourceTree = "<group>"; };
+		CD8C6F69189544E0000EAE12 /* RegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterTableViewController.h; sourceTree = "<group>"; };
 		CD9FD2EF15F7AA5900AE22FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CDBCA719167DA36C00BD8B40 /* XCDFormInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDFormInputAccessoryView.h; sourceTree = "<group>"; };
 		CDBCA71A167DA36C00BD8B40 /* XCDFormInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDFormInputAccessoryView.m; sourceTree = "<group>"; };
@@ -489,7 +490,10 @@
 				CD0BA4FD1886E3F1003BADD4 /* SettingTabViewController.xib */,
 				CD8B7546188BCFD7009E7020 /* LoginTableViewController.h */,
 				CD8B7547188BCFD7009E7020 /* LoginTableViewController.m */,
-				CD8B7548188BCFD7009E7020 /* LoginTableViewController.storyboard */,
+				CD0E79A31895624E00AF0F25 /* LoginTableViewController.storyboard */,
+				CD8C6F69189544E0000EAE12 /* RegisterTableViewController.h */,
+				CD8C6F67189544E0000EAE12 /* RegisterTableViewController.m */,
+				CD8C6F68189544E0000EAE12 /* RegisterTableViewController.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -513,8 +517,6 @@
 				CD849FCF188445DE00C4EA91 /* AppDelegate.h */,
 				CD849FD0188445DE00C4EA91 /* AppDelegate.m */,
 				CD849FD1188445DE00C4EA91 /* InfoPlist.strings */,
-				CD849FD3188445DE00C4EA91 /* ViewController_iPad.xib */,
-				CD849FD5188445DE00C4EA91 /* ViewController_iPhone.xib */,
 				CD849FE1188445DE00C4EA91 /* Localizable.strings */,
 				CD849FE2188445DE00C4EA91 /* main.m */,
 				CD849FE7188445DE00C4EA91 /* WJH-Info.plist */,
@@ -713,6 +715,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 181B19F115EDF9FD00B67BDF;
 			productRefGroup = 181B19FD15EDF9FE00B67BDF /* Products */;
@@ -732,9 +735,9 @@
 				CD8637F415F4F7CD00558623 /* URLConfig.json in Resources */,
 				CD0BA4F51886E1AD003BADD4 /* MainTabViewController.xib in Resources */,
 				CD0BA50E1886EB33003BADD4 /* tab3@2x.png in Resources */,
+				CD8C6F6B189544E0000EAE12 /* RegisterTableViewController.storyboard in Resources */,
 				CD0BA50A1886EB33003BADD4 /* tab1@2x.png in Resources */,
 				CD84A13B18859AB400C4EA91 /* iTunesArtwork in Resources */,
-				CD84A0FF188445DF00C4EA91 /* ViewController_iPhone.xib in Resources */,
 				CD8B7577188BF0AA009E7020 /* login.png in Resources */,
 				CD86074C1600EB4A003B9C39 /* blueArrowForFooter.png in Resources */,
 				CD86074D1600EB4A003B9C39 /* blueArrowForFooter@2x.png in Resources */,
@@ -748,14 +751,13 @@
 				CD0BA4FF1886E3F1003BADD4 /* SettingTabViewController.xib in Resources */,
 				CD0BA4FA1886E1F4003BADD4 /* PersonalTabViewController.xib in Resources */,
 				CD84A0FD188445DF00C4EA91 /* InfoPlist.strings in Resources */,
-				CD84A0FE188445DF00C4EA91 /* ViewController_iPad.xib in Resources */,
 				CD84A13A18859AB400C4EA91 /* icon.png in Resources */,
 				CD84A13C18859AB400C4EA91 /* iTunesArtwork.png in Resources */,
 				CD0BA50D1886EB33003BADD4 /* tab2_s@2x.png in Resources */,
 				CD8B7570188BD832009E7020 /* wjh-220@2x.png in Resources */,
 				CD84A106188445DF00C4EA91 /* Localizable.strings in Resources */,
 				CD84A13D18859AB400C4EA91 /* Default@2x.png in Resources */,
-				CD8B754A188BCFD7009E7020 /* LoginTableViewController.storyboard in Resources */,
+				CD0E79A11895624E00AF0F25 /* LoginTableViewController.storyboard in Resources */,
 				CD0C3A9F188BC1AA0053AE25 /* icon-29.png in Resources */,
 				CD8B7579188BF0AA009E7020 /* login@2x.png in Resources */,
 				CD84A13E18859AB400C4EA91 /* Default-568h@2x.png in Resources */,
@@ -813,6 +815,7 @@
 				181B1A5015EDFA1B00B67BDF /* NSObject+SBJSON.m in Sources */,
 				181B1A5115EDFA1B00B67BDF /* NSString+SBJSON.m in Sources */,
 				181B1A5215EDFA1B00B67BDF /* SBJSON.m in Sources */,
+				CD8C6F6A189544E0000EAE12 /* RegisterTableViewController.m in Sources */,
 				181B1A5315EDFA1B00B67BDF /* SBJsonBase.m in Sources */,
 				181B1A5415EDFA1B00B67BDF /* SBJsonParser.m in Sources */,
 				CD8B7549188BCFD7009E7020 /* LoginTableViewController.m in Sources */,
@@ -844,28 +847,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CD0E79A31895624E00AF0F25 /* LoginTableViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0E79A4189562AF00AF0F25 /* zh-Hans */,
+			);
+			name = LoginTableViewController.storyboard;
+			sourceTree = "<group>";
+		};
 		CD849FD1188445DE00C4EA91 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD849FD2188445DE00C4EA91 /* en */,
+				CD0E79A5189562AF00AF0F25 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CD849FD3188445DE00C4EA91 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD849FD4188445DE00C4EA91 /* en */,
-			);
-			name = ViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		CD849FD5188445DE00C4EA91 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD849FD6188445DE00C4EA91 /* en */,
-			);
-			name = ViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
